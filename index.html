@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://aomineDev.github.io/ico/aomine.ico"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#!" class="logo"><img src="img/logo.png" alt="logo" /></a>
+      <ul class="navigation">
+        <li><a href="#!">Home</a></li>
+        <li><a href="#!">TV Shows</a></li>
+        <li><a href="#!">Novies</a></li>
+        <li><a href="#!">Latest</a></li>
+        <li><a href="#!">My List</a></li>
+      </ul>
+      <div class="search">
+        <input type="seach" placeholder="Search" />
+        <i class="fas fa-search"></i>
+      </div>
+    </header>
+    <div class="banner">
+      <img src="img/bg.jpg" alt="bg" class="bg" />
+      <div class="content">
+        <img src="img/name.png" alt="name" class="movie-title" />
+        <h4>
+          <span>2020</span>
+          <span><i>12+</i></span>
+          <span>1h 55min</span>
+          <span>Action</span>
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ea
+          ex perferendis corporis est sapiente quae eos laudantium. Tempore
+          similique.
+        </p>
+        <div class="buttons">
+          <a href="#!"><i class="fas fa-play"></i> Play</a>
+          <a href="#!"><i class="fas fa-plus"></i> My list</a>
+        </div>
+      </div>
+      <a href="#trailer" class="play"
+        ><img src="icons/play.png" alt="play" />Watch Trailer</a
+      >
+    </div>
+
+    <div class="trailer" id="trailer">
+      <video src="video/video.mp4" controls autoplay></video>
+      <a href="#!"><img src="icons/close.png" alt="close" class="close" /></a>
+    </div>
+  </body>
+</html>
